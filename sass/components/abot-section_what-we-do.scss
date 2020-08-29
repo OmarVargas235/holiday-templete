@@ -1,0 +1,35 @@
+.abot-section_what-we-do {
+	background-color: $color-third;
+
+	.abot-section_what-we-do__footer {
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+
+		p {
+			color: black;
+			opacity: .8;
+			font-size: .8rem;
+		}
+	}
+
+	.abot-section_what-we-do__testimonials {
+		background-color: rgb(96, 104, 116);
+		color: $color-third;
+		font-size: 1.4rem;
+	}
+
+	.abot-section_what-we-do__content {
+		background-color: $color-primary-dark;
+		font-style: italic;
+
+		.abot-section_what-we-do__conten-text {
+			margin-bottom: 2rem;
+		}
+
+		strong {
+			opacity: .9;
+			display: block;
+			margin-top: .7rem;
+		}
+	}
+}

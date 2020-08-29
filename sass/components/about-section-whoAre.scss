@@ -1,0 +1,40 @@
+.abot-section_who-we-are {
+	margin-top: 7rem;
+	padding: 0 16px;
+
+	.card-container {
+		padding: 0;
+	}	
+
+	.abot-section_who-we-are__card {
+		@extend %flex-basi;
+		flex-direction: column;
+		padding: 2rem 0;
+		text-align: center;
+	}
+
+	img {
+		border-radius: 50%;
+		border: 5px solid #d4d4d4;
+		transition: border 0.3s ease;
+		width: 160px;
+		height: 160px;
+		cursor: pointer;
+
+		&:hover {
+			border: 5px solid #E8BA0F;
+		}
+	}
+
+	.about-section_who-we-are__title {
+		margin-bottom: 1rem;
+	}
+
+	.about-section_who-we-are__text {
+		font-size: .9rem;
+	}
+
+	.abot-section__icon {
+		margin-top: .5rem;
+	}
+}

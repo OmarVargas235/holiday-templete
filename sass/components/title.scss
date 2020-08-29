@@ -1,0 +1,194 @@
+.title {
+	text-align: center;
+	position: relative;
+	color: #595959;
+	letter-spacing: 0.2px;
+	margin-bottom: 5rem;
+
+	&::before, &::after {
+		content: '';
+		display: block;
+		position: absolute;
+		
+		margin: 3rem 0;
+
+		background-color: black;
+
+		width: 100%;
+		height: 1px;
+	}
+
+	&::after {
+		bottom: 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.title {
+		font-size: 2rem;
+
+		&::before, &::after {
+			margin: 0;
+
+			width: 20%;
+			left: 5%;
+			top: 50%;
+		}
+
+		&::after {
+			left: 75%;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.title {
+		&::before, &::after {
+			width: 30%;
+			left: 0%;
+		}
+
+		&::after {
+			left: 70%;
+		}
+	}
+}
+
+@media (min-width: 1339px) {
+	.title {
+		&::before, &::after {
+			width: 20%;
+			left: 8%;
+		}
+
+		&::after {
+			left: 72%;
+		}
+	}
+}
+
+@media (min-width: 1560px) {
+	.title {
+		&::before, &::after {
+			width: 15.5%;
+			left: 15%;
+		}
+
+		&::after {
+			left: 69.5%;
+		}
+	}
+}
+
+@media (min-width: 1600px) {
+	.title {
+		&::before, &::after {
+			width: 16%;
+			left: 14%;
+		}
+
+		&::after {
+			left: 69.5%;
+		}
+	}
+}
+
+@media (min-width: 1700px) {
+	.title {
+		&::before, &::after {
+			width: 16.5%;
+			left: 13.5%;
+		}
+
+		&::after {
+			left: 69.5%;
+		}
+	}
+}
+
+@media (min-width: 1785px) {
+	.title {
+		&::before, &::after {
+			width: 10%;
+			left: 25.5%;
+		}
+
+		&::after {
+			left: 64.5%;
+		}
+	}
+}
+
+@media (min-width: 1785px) {
+	.title {
+		&::before, &::after {
+			width: 11%;
+			left: 25%;
+		}
+
+		&::after {
+			left: 64%;
+		}
+	}
+}
+
+@media (min-width: 1865px) {
+	.title {
+		&::before, &::after {
+			left: 24.5%;
+		}
+
+		&::after {
+			left: 64.5%;
+		}
+	}
+}
+
+@media (min-width: 1940px) {
+	.title {
+		&::before, &::after {
+			left: 24%;
+		}
+
+		&::after {
+			left: 65%;
+		}
+	}
+}
+
+@media (min-width: 1940px) {
+	.title {
+		&::before, &::after {
+			width: 12%;
+			left: 23%;
+		}
+
+		&::after {
+			left: 65%;
+		}
+	}
+}
+
+@media (min-width: 2040px) {
+	.title {
+		&::before, &::after {
+			left: 22.5%;
+		}
+
+		&::after {
+			left: 65.5%;
+		}
+	}
+}
+
+@media (min-width: 2180px) {
+	.title {
+		&::before, &::after {
+			left: 21.5%;
+		}
+
+		&::after {
+			left: 67%;
+		}
+	}
+}

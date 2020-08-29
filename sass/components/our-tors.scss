@@ -1,0 +1,40 @@
+.our-tors {
+	.card__body {
+		p {
+			color: #B1B1B1;
+		}
+	}
+
+	.our-tors__text {
+		.our-tors__text--title {
+			color: $color-secundary;
+			margin-bottom: 14px;
+		}
+	}
+
+	.our-tors__text--border {
+		border-bottom: 1px solid #B1B1B1;
+	}
+
+	.card-footer {
+		p {
+			margin: 0;
+			text-align: center;
+		}
+	}
+
+	.card-footer {
+		p {
+			color: $color-third;
+		}
+	}
+
+	.card-footer__time {
+		background-color: #1CA7C8;
+	}
+
+	.card-footer__price {
+		background-color: #1687A6;
+	    font-weight: 600;
+	}
+}

@@ -1,0 +1,141 @@
+.card-container {
+	overflow-x: hidden;
+}
+
+.card-animation {
+	opacity: 0;
+}
+
+//Para tamaños inferiores a 992px
+
+.card-enter-md:nth-child(odd) {//Impar
+	animation: animationOdd .6s ease-in forwards;
+}
+
+.card-enter-md:nth-child(even) {//Par
+	animation: animationEven .6s ease-in forwards;
+}
+
+@keyframes animationOdd {
+	from {
+		transform: translateX(5%);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateX(0%);
+		opacity: 1;
+	}
+}
+
+@keyframes animationEven {
+	from {
+		transform: translateX(-5%);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateX(0%);
+		opacity: 1;
+	}
+}
+
+.card-out-md:nth-child(odd) {//Impar
+	animation: animationOddOut .6s ease-in forwards;
+}
+
+.card-out-md:nth-child(even) {//Par
+	animation: animationEvenOut .6s ease-in forwards;
+}
+
+@keyframes animationOddOut {
+	from {
+		transform: translateX(0%);
+		opacity: 1;
+	}
+
+	to {
+		transform: translateX(5%);
+		opacity: 0;
+	}
+}
+
+@keyframes animationEvenOut {
+	from {
+		transform: translateX(0%);
+		opacity: 1;
+	}
+
+	to {
+		transform: translateX(-5%);
+		opacity: 0;
+	}
+}
+
+////////////////////////////////////////////////////////////
+
+@media (min-width: 992px) {
+	.card-enter-md:nth-child(1), .card-enter-md:nth-child(2) {
+		animation: animationFirstCards .6s ease-in forwards;
+	}
+
+	.card-enter-md:nth-child(3), .card-enter-md:nth-child(4) { 
+		animation: animationSecondCards .6s ease-in forwards;
+	}
+
+	@keyframes animationFirstCards {
+		from {
+			transform: translateX(-10%);
+			opacity: 0;
+		}
+
+		to {
+			transform: translateX(0%);
+			opacity: 1;
+		}
+	}
+
+	@keyframes animationSecondCards {
+		from {
+			transform: translateX(10%);
+			opacity: 0;
+		}
+
+		to {
+			transform: translateX(0%);
+			opacity: 1;
+		}
+	}
+
+	.card-out-md:nth-child(1), .card-out-md:nth-child(2) {
+		animation: animationFirstCardsOut .6s ease-in forwards;
+	}
+
+	.card-out-md:nth-child(3), .card-out-md:nth-child(4) {
+		animation: animationSecondCardsOut .6s ease-in forwards;
+	}
+
+	@keyframes animationFirstCardsOut {
+		from {
+			transform: translateX(0%);
+			opacity: 1;
+		}
+
+		to {
+			transform: translateX(-5%);
+			opacity: 0;
+		}
+	}
+
+	@keyframes animationSecondCardsOut {
+		from {
+			transform: translateX(0%);
+			opacity: 1;
+		}
+
+		to {
+			transform: translateX(5%);
+			opacity: 0;
+		}
+	}
+}

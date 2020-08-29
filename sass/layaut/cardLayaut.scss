@@ -1,0 +1,152 @@
+.card-container {
+	padding: 0 1rem;
+
+	img {
+		width: 100%;
+	}
+}
+
+.card {
+	margin: 0;
+	margin-bottom: 2rem;
+}
+
+.card__body {
+	padding: 10px 25px;
+	font-size: .8rem;
+	
+	h3 {
+		margin-bottom: 2.5rem;
+	}
+
+	p {
+		font-size: 1rem;
+		margin-bottom: 0rem;
+	}
+}
+
+.card__footer {
+	display: grid;
+	grid-template-columns: 22% 56% 22%;
+	
+	span {
+		@extend %flex-basi;
+	}
+
+	.card__footer--icon {
+		font-size: 1.4em;
+		padding: 20px;
+		width: 100%;
+		height: 60px;
+	}
+}
+
+@media (min-width: 350px) {
+	.card-container {
+		padding: 0 2.2rem;
+	}
+}
+
+@media (min-width: 400px) {
+	.card-container {
+		padding: 0 3.5rem;
+	}
+}
+
+@media (min-width: 445px) {
+	.card-container {
+		padding: 0 5rem;
+	}
+}
+
+@media (min-width: 494px) {
+	.card-container {
+		padding: 0 6.5rem;
+	}
+}
+
+@media (min-width: 542px) {
+	.card-container {
+		padding: 0 7.5rem;
+	}
+}
+
+@media (min-width: 575px) {
+	.card-container {
+		padding: 0 9.3rem;
+	}
+}
+
+@media (min-width: 633px) {
+	.card-container {
+		padding: 0 1rem;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 4rem;
+	}
+}
+
+@media (min-width: 700px) {
+	.card-container {
+		padding: 0 2rem;
+		grid-column-gap: 7rem;
+	}
+}
+
+@media (min-width: 800px) {
+	.card-container {
+		padding: 0 4rem;
+		grid-column-gap: 9rem;
+	}
+}
+
+@media (min-width: 910px) {
+	.card-container {
+		padding: 0 8rem;
+		grid-column-gap: 9rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.card-container {
+		grid-template-columns: repeat(4, 1fr);
+		padding: 0;
+		grid-column-gap: 2rem;
+	}
+}
+
+@media (min-width: 1339px) {
+	.card-container {
+		padding: 0 7rem;
+	}
+}
+
+@media (min-width: 1560px) {
+	.card-container {
+		padding: 0 14rem;
+	}
+}
+
+@media (min-width: 1785px) {
+	.card-container {
+		padding: 0 28rem;
+	}
+}
+
+@media (min-width: 2000px) {
+	.card-container {
+		padding: 0 28rem;
+	}
+}
+
+@media (min-width: 2220px) {
+	.card-container {
+		padding: 0 35rem;
+	}
+}
+
+@media (min-width: 2450px) {
+	.card-container {
+		padding: 0 40rem;
+	}
+}

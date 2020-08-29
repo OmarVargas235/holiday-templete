@@ -1,0 +1,261 @@
+.abot-section_what-we-do {
+	padding: 4rem 16px;
+	margin-top: 4rem;
+
+	.card {
+		margin-bottom: 3rem;
+	}
+
+	.card-container, .card__body {
+		padding: 0;
+		text-align: justify;
+	}
+
+	.abot-section_what-we-do__title {
+		font-size: 1.4rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.abot-section_what-we-do__footer {
+		position: relative;
+		margin-top: 1.7rem;
+		text-align: right;
+
+		p {
+			margin: .8rem 0;
+		}
+	}
+
+	.abot-section_what-we-do__testimonials, .abot-section_what-we-do__content {
+		padding: 20px;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.abot-section_what-we-do__content {
+		font-size: .9rem;
+	}
+}
+
+@media (min-width: 340px) {
+	.abot-section_what-we-do__container {
+		padding: 0 1rem;
+	}
+}
+
+@media (min-width: 375px) {
+	.abot-section_what-we-do__container {
+		padding: 0 2rem;
+	}
+}
+
+@media (min-width: 425px) {
+	.abot-section_what-we-do__container {
+		padding: 0 4rem;
+	}
+}
+
+@media (min-width: 500px) {
+	.abot-section_what-we-do__container {
+		padding: 0 6rem;
+	}
+}
+
+@media (min-width: 576px) {
+	.abot-section_what-we-do__container {
+		padding: 0 8rem;
+	}
+}
+
+@media (min-width: 633px) {
+	.abot-section_what-we-do {
+		.card-container {
+			grid-template-columns: 1fr;
+		}
+	}
+}
+
+@media (min-width: 676px) {
+	.abot-section_what-we-do__container {
+		padding: 0 12rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.abot-section_what-we-do__container {
+		padding: 0;
+	}
+
+	.abot-section_what-we-do {
+		.card-container {
+			grid-template-columns: repeat(2, 1fr);
+			padding: 0 2rem;
+		}
+
+		.abot-section_what-we-do__testimonial-box {
+			padding: 0 15rem;
+		}
+	}
+}
+
+@media (min-width: 880px) {
+	.abot-section_what-we-do {
+		.abot-section_what-we-do__testimonial-box {
+			padding: 0 18rem;
+		}
+	}
+}
+
+@media (min-width: 900px) {
+	.abot-section_what-we-do {
+		.abot-section_what-we-do__testimonial-box {
+			padding: 0 19rem;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.abot-section_what-we-do__container {
+		display: grid;
+		grid-template-columns: 20% 80%;
+		
+		.abot-section_what-we-do__testimonial-box {
+			padding: 0;
+
+			p {
+				margin: 0;
+			}
+
+			.abot-section_what-we-do__content {
+				padding: 3rem 1rem;
+
+				p {
+					margin-bottom: 3rem;
+				}
+
+				p:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		.card-container {
+			margin-left: 1rem;
+			order: 1;
+			grid-template-columns: 1fr;
+			padding: 0;
+		}
+
+		.card {
+			max-width: 100%;
+			display: grid;
+			grid-column-gap: 1.2rem;
+			grid-template-columns: 40% 55%;
+			font-size: .9rem;
+		}
+
+		.card__body {
+			padding: 0;
+
+			h3 {
+				margin-top: 0;
+			}
+		}
+	}
+}
+
+@media (min-width: 1100px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 2rem;
+	}
+}
+
+@media (min-width: 1150px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 6rem;
+	}
+}
+
+@media (min-width: 1280px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 9rem;
+	}
+}
+
+@media (min-width: 1380px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 11rem;
+	}
+}
+
+@media (min-width: 1440px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 14rem;
+	}
+}
+
+@media (min-width: 1540px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 17rem;
+	}
+}
+
+@media (min-width: 1640px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 20rem;
+	}
+}
+
+@media (min-width: 1740px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 23rem;
+	}
+}
+
+@media (min-width: 1840px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 26rem;
+	}
+}
+
+@media (min-width: 1940px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 29rem;
+	}
+}
+
+@media (min-width: 2040px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 32rem;
+	}
+}
+
+@media (min-width: 2140px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 35rem;
+	}
+}
+
+@media (min-width: 2240px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 38rem;
+	}
+}
+
+@media (min-width: 2340px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 41rem;
+	}
+}
+
+@media (min-width: 2440px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 44rem;
+	}
+}
+
+@media (min-width: 2540px) {
+	.abot-section_what-we-do__container { 
+		padding: 0 47rem;
+	}
+}

@@ -1,0 +1,60 @@
+.contact-map {
+	.effect-shadow {
+		&::before, &::after {
+			bottom: 12px;
+		}
+	}
+}
+
+@media (min-width: 600px) {
+	.card-big__move-up {
+		margin-top: -25px;
+	}
+}
+
+@media (min-width: 992px) {
+	.card-big__card {
+		display: grid;
+		grid-template-columns: 40% 60%;
+		margin: 0;
+		padding-right: 1.5rem;
+	}
+
+	.contact-map {
+		.effect-shadow {
+			&::before, &::after {
+				bottom: 20px;
+			}
+		}
+	}
+}
+
+@media (min-width: 1300px) {
+	.contact-map {
+		.effect-shadow {
+			&::before, &::after {
+				bottom: 30px;
+			}
+		}
+	}
+}
+
+@media (min-width: 2000px) {
+	.contact-map {
+		.effect-shadow {
+			&::before, &::after {
+				bottom: 40px;
+			}
+		}
+	}
+}
+
+@media (min-width: 2300px) {
+	.contact-map {
+		.effect-shadow {
+			&::before, &::after {
+				bottom: 50px;
+			}
+		}
+	}
+}

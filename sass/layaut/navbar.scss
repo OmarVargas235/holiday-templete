@@ -1,0 +1,95 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25.5px 30px;
+	position: relative;
+
+	.navbar__container-list-icon {
+		position: fixed;
+		right: 5%;
+		z-index: 2;
+	}
+
+	.fa-bars {
+		font-size: 2rem;
+	}
+	
+	.navbar__list {
+		position: absolute;
+		right: 0px;
+		top: calc(100% + 10px);
+		display: none;
+	}
+
+	.navbar__link {
+		display: block;
+		width: 140px;
+		padding: 20px;
+	}
+
+	.navbar__title {
+		font-size: 27px;
+	}
+}
+
+// Diseño de escritorio
+@media (min-width: 768px) {
+	.navbar {
+		padding: 0 70px;
+
+		.navbar__container-list-icon {
+			position: relative;
+		}
+
+		.navbar__container-icon {
+			display: none;
+		}
+
+		.navbar__list {
+			position: relative;
+			transition: opacity .5s;
+			opacity: 1;
+			display: flex;
+			margin-left: 40px;
+			text-align: center;
+		}
+
+		.navbar__link {
+			color: $color-third;
+			display: block;
+			width: 110px;
+			padding: 32px 0px;
+		}
+	}
+}
+
+@media (min-width: 992px) { 
+	.navbar {
+		padding: 0 100px;
+	}
+}
+
+@media (min-width: 1200px) { 
+	.navbar {
+		padding: 0 150px;
+	}
+}
+
+@media (min-width: 1440px) { 
+	.navbar {
+		padding: 0 250px;
+	}
+}
+
+@media (min-width: 2000px) { 
+	.navbar {
+		padding: 0 450px;
+	}
+}
+
+@media (min-width: 2300px) { 
+	.navbar {
+		padding: 0 500px;
+	}
+}

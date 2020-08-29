@@ -1,0 +1,192 @@
+@import '../utilities/variables';
+@import '../utilities/placeholder';
+
+.section-reservation {
+	display: grid;
+	grid-gap: 1.4rem;
+	grid-template-columns: 1fr;
+	margin: 0 1rem;
+
+	img {
+		width: 100%;
+	}
+
+	// Card formulario
+	.section-reservation__header-form {
+		height: 52px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+
+		* {
+			margin: 0;
+			@extend %flex-basi;
+	    	height: 100%;
+		}
+	}
+
+	.form {
+		margin-top: 5px;
+		padding: 0 25px;
+		padding-top: 35px;
+
+		select {
+			@extend %inputs;
+			margin-bottom: 30px;
+		}
+	}
+
+	.section-reservation__input-group-form {
+		display: grid;
+		grid-template-columns: 85% 15%;
+		margin-bottom: 30px;
+
+		span {
+			@extend %flex-basi;
+		}
+	}
+
+	//Card 2 y 3
+
+	.section-reservation__footer-form {
+		height: 88px;
+		@extend %flex-basi;
+	}
+	
+	.section-reservation__figcaption {
+		padding: 35px 0;
+		font-size: 20px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin-top: -4px;
+
+		span {
+			text-align: center;
+		}
+	}
+}
+
+@media (min-width: 425px) {
+	.section-reservation {
+		margin: 0 4rem;
+	}
+}
+
+@media (min-width: 500px) {
+	.section-reservation {
+		margin: 0 6rem;
+	}
+}
+
+@media (min-width: 550px) {
+	.section-reservation {
+		margin: 0 8rem;
+	}
+}
+
+@media (min-width: 620px) {
+	.section-reservation {
+		margin: 0 10rem;
+		
+		.section-reservation__card--form {
+			margin-top: -25px;
+			z-index: 1;
+		}
+	}
+
+}
+
+//sm
+
+@media (min-width: 620px) {
+	.section-reservation {
+		margin: 0 2rem;
+		grid-template-columns: repeat(2, 1fr);
+		
+		.section-reservation__card {
+			margin-top: -25px;
+			z-index: 1;
+		}
+
+		img {
+			height: 351px;
+		}
+	}
+}
+
+//md
+
+@media (min-width: 850px) {
+	.section-reservation {
+		margin: 0 4rem;
+	}
+}
+
+@media (min-width: 910px) {
+	.section-reservation {
+		margin: 0 7rem;
+	}
+}
+
+//lg
+
+@media (min-width: 992px) {
+
+	.section-reservation {
+		margin: 0 1rem;
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (min-width: 1150px) {
+	.section-reservation {
+		margin: 0 6rem;
+	}
+}
+
+@media (min-width: 1350px) {
+	.section-reservation {
+		margin: 0 10rem;
+	}
+}
+
+@media (min-width: 1550px) {
+	.section-reservation {
+		margin: 0 13rem;
+	}
+}
+
+@media (min-width: 1700px) {
+	.section-reservation {
+		margin: 0 19rem;
+	}
+}
+
+@media (min-width: 1700px) {
+	.section-reservation {
+		margin: 0 25rem;
+	}
+}
+
+@media (min-width: 2100px) {
+	.section-reservation {
+		margin: 0 30rem;
+	}
+}
+
+@media (min-width: 2250px) {
+	.section-reservation {
+		margin: 0 35rem;
+	}
+}
+
+@media (min-width: 2400px) {
+	.section-reservation {
+		margin: 0 40rem;
+	}
+}
+
+@media (min-width: 2500px) {
+	.section-reservation {
+		margin: 0 45rem;
+	}
+}

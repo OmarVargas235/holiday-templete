@@ -1,0 +1,47 @@
+.special-packages {
+	padding: 4rem 16px;
+	margin-top: 4rem;
+
+	.card__body {
+		p {
+			font-size: .9rem;
+		}
+	}
+
+	.special-packages__text-card-body {
+		padding-bottom: 1.4rem;
+		margin-bottom: 1rem;
+	}
+
+	.special-packages__img {
+		max-width: 45%;
+	}
+
+	.special-packages__btn {
+		margin-top: 1.5rem;
+		display: block;
+		width: 100%;
+		padding-top: 20px;
+	    padding-bottom: 20px;
+	}
+
+	.special-packages__text {
+		text-align: justify;
+	}
+}
+
+@media (min-width: 633px) {
+	.special-packages {
+		.special-packages__text {
+			grid-column: 1 / 3;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.special-packages {
+		.special-packages__text {
+			grid-column: 1 / 5;
+		}
+	}
+}

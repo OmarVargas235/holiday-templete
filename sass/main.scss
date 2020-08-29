@@ -1,0 +1,46 @@
+@import './utilities/variables';
+@import './base/reset';
+@import './base/tipografia';
+
+@import './components/navbarStyles';
+
+@import './components/title';
+@import './components/card';
+@import './layaut/cardLayaut';
+@import './components/card-big';
+
+@import './components/sliderStyles';
+@import './layaut/header';
+
+@import './layaut/section-reservation';
+@import './layaut/section-travels';
+@import './layaut/about-card_slider';
+@import './layaut/about-section-whoAre';
+@import './layaut/abot-section_what-we-do';
+@import './layaut/our-tors';
+@import './layaut/special-packages';
+@import './layaut/contact-map';
+@import './layaut/contact-us';
+
+@import './components/section-reservation';
+@import './components/section-popular_packges';
+@import './components/about-card_slider';
+@import './components/about-section-whoAre';
+@import './components/abot-section_what-we-do';
+@import './components/our-tors';
+@import './components/special-packages';
+@import './components/contact-us';
+@import './components/animationCards';
+@import './components/animation-special_popular-packages';
+
+@import './components/footer';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #E5E5E5;
+	min-height: 100vh;
+}

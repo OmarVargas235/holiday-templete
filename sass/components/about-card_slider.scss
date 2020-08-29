@@ -1,0 +1,16 @@
+.abot-section_slider {
+	.abot-section_slider__btn {
+		.btn__slider {
+			background-color: #727272;
+			cursor: pointer;
+
+			&:hover {
+				background: rgba(0, 0, 0, 0.7);
+			}
+		}
+
+		.active {
+			background-color: #161616;
+		}
+	}
+}

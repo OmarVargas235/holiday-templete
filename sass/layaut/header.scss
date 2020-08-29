@@ -1,0 +1,148 @@
+.header {
+	position: relative;
+	
+	&:hover .header__arrow-left {
+		left: 0% !important;
+	}
+
+	&:hover .header__arrow-right {
+		right: 0% !important;
+	}
+
+	.header__img {	
+		max-width: 100%;
+	}
+
+	.header__baner-text {
+		width: 100%;
+		text-align: center;
+		font-size: 3.75vw;
+	}
+
+	.header__title {
+		font-size: 6.25vw;
+		margin-bottom: 0;
+	}
+
+	.header__paragraph {
+		margin: 0;
+	}
+
+	.header__btn {
+		position: absolute;
+		top: 59.47%;
+		left: calc(50% - 56px);
+
+		padding: 6px 10px;
+		line-height: 20px;
+	}
+
+	.header__arrows {
+		position: relative;
+		z-index: 1;
+		top: calc(50% - 40px);
+
+		display: flex;
+		justify-content: space-between;
+		font-size: 4rem;
+
+		i {
+			position: relative;
+			width: 40px;
+			height: 20px;
+			text-align: center;
+		}
+	}
+}
+
+// Boton header, Flechas --- diseño movil (tamaños "md")
+@media (min-width: 421px) {
+	.header {
+		.header__btn {
+			left: calc(50% - 70px);
+			padding: 10px 25px;
+		}
+	}
+}
+
+@media (min-width: 601px) {
+	.header {
+		.header__btn {
+			left: calc(50% - 80px);
+			padding: 12px 30px;
+		}
+
+		.header__arrows {
+			font-size: 5rem;
+		}
+	}
+}
+
+// Boton header, Flechas --- diseño escritorio (tamaños "sm")
+
+@media (min-width: 880px) { 
+	.header {
+		.header__btn {
+			font-size: 1.2rem;
+			left: calc(50% - 100px);
+			padding: 18px 30px;
+		}
+	}
+}
+
+// Boton header, Flechas --- diseño escritorio (tamaños "lg")
+
+@media (min-width: 1024px) {
+	.header {
+		.header__arrows {
+			font-size: 7rem;
+			margin: 0 1rem;
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.header {
+		.header__btn {
+			font-size: 1.6rem;
+			left: calc(50% - 110px);
+			padding: 24px 30px;
+		}
+	}
+}
+
+// Boton header, Flechas --- diseño escritorio (tamaños "xl")
+
+@media (min-width: 1500px) {
+	.header {
+		.header__btn {
+			font-size: 2rem;
+			left: calc(50% - 110px);
+			padding: 35px 30px;
+		}
+
+		.header__arrows {
+			font-size: 9rem;
+			margin: 0 2rem;
+		}
+	}
+}
+
+@media (min-width: 1920px) {
+	.header {
+		.header__img {	
+			width: 100%;
+		}
+
+		.header__btn {
+			font-size: 3rem;
+			left: calc(50% - 180px);
+			padding: 50px 30px;
+		}
+
+		.header__arrows {
+			font-size: 11rem;
+			margin: 0 4rem;
+		}
+	}
+}

@@ -1,0 +1,47 @@
+@import '../utilities/variables';
+
+.navbar {
+	background-color: $color-secundary;
+	color: $color-primary;
+	
+	// Diseño movil
+	.navbar__container-icon {
+		background-color: #0A0A0A;
+		padding: 10px 15px;
+		cursor: pointer;
+	}
+
+	.navbar__list {
+		transition: opacity .5s;
+		background-color: rgb(0, 0, 0, .8);
+		opacity: 0;
+	}
+
+	.navbar__list-item {
+		cursor: pointer;
+		transition: background-color .4s;
+
+		&.navbar__list--active {
+			background-color: $color-primary;
+		}
+
+		.navbar__link--active {
+			color: $color-secundary;
+		}
+
+		&:hover {
+			background-color: $color-primary;
+		}
+
+		&:hover .navbar__link {
+			color: $color-secundary;
+		} 
+	}
+
+	.navbar__link {
+		color: $color-third;
+	}
+}
+
+// Diseño de escritorio
+@import '../layaut/navbar';

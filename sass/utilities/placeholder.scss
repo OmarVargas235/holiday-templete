@@ -1,0 +1,23 @@
+%buttons-sm {
+	padding: 8px 20px;
+	line-height: 25px;
+	border: none;
+}
+
+%inputs {
+	width: 100%;
+	padding: 0;
+	padding: 9px 20px;
+	border: 1px solid #CCCCCC;
+
+	&::placeholder {
+		font-size: 1rem;
+	}
+}
+
+%flex-basi {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: flex-column;
+}

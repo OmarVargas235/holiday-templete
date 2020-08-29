@@ -1,0 +1,30 @@
+.special-packages {
+	background-color: $color-third;
+
+	.card {
+		border: 1px solid #E4E4E4;
+	}
+
+	.card__body {
+		p {
+			color: $color-secundary;
+		}
+	}
+
+	.special-packages__text-card-body {
+		border-bottom: 1px solid #b1b1b1;
+	}
+
+	.special-packages__btn {
+		text-align: center;
+	    background-color: #8C8C8C;
+	    color: white;
+	    border: none;
+	    transition: .2s ease-in;
+	    cursor: pointer;
+
+	    &:hover {
+	    	background-color: $color-primary-dark;
+	    }
+	}
+}

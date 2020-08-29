@@ -1,0 +1,97 @@
+.contact-us {
+	margin-top: 4rem;
+	padding: 4rem 1rem;
+
+	.contact-us__form-control {
+		width: 100%;
+		padding: .6rem;
+		margin-bottom: .7rem;
+		border: 1px solid #ccc;
+	}
+
+	.contact-us__btn {
+		width: 100%;
+		padding: .9rem;
+	}
+
+	.contac-us__iconos {
+		margin-top: 2rem;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.contact-us__facebook, .contact-us__dribbble, .contact-us__twitter, 
+	.contact-us__instagram, .contact-us__google-plus {
+		width: 40px;
+		height: 40px;
+		padding: .5rem;
+		text-align: center;
+		font-size: 1.3rem;
+		cursor: pointer;
+	}
+}
+
+@media (min-width: 375px) {
+	.contact-us__form, .contac-us__iconos {
+		margin: 0 8vw;
+	}
+}
+
+@media (min-width: 500px) {
+	.contact-us__container {
+		margin: 0 10vw;
+	}
+}
+
+@media (min-width: 700px) {
+	.contact-us__container {
+		margin: 0 16vw;
+	}
+}
+
+@media (min-width: 768px) {
+	.contact-us__container {
+		margin: 0;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 2rem;
+
+		.contact-us__form {
+			width: 100%;
+		}
+	}
+
+	.contac-us__iconos {
+		align-items: center;
+	}
+}	
+
+@media (min-width: 850px) {
+	.contact-us__container {
+		margin: 0 4vw;
+	}
+}
+
+@media (min-width: 1200px) {
+	.contact-us__container {
+		margin: 0 8vw;
+	}
+}
+
+@media (min-width: 1440px) {
+	.contact-us__container {
+		margin: 0 14vw;
+	}
+}
+
+@media (min-width: 1700px) {
+	.contact-us__container {
+		margin: 0 20vw;
+	}
+}
+
+@media (min-width: 2000px) {
+	.contact-us__container {
+		margin: 0 25vw;
+	}
+}

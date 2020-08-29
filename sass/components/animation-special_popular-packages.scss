@@ -1,0 +1,71 @@
+.animation-popular-packages {
+	opacity: 0;
+}
+
+.animation-popular-packages_enter {
+	animation: animationEnter .6s forwards;
+}
+
+@keyframes animationEnter {
+	from {
+		transform: scale(.9);		
+		opacity: 0;
+	}
+
+	to {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+.animation-popular-packages_out {
+	animation: animationOut .6s forwards;
+}
+
+@keyframes animationOut {
+	from {
+		transform: scale(1);		
+		opacity: 1;
+	}
+
+	to {
+		transform: scale(.9);
+		opacity: 0;
+	}
+}
+
+//Animacion para el archivo tours.html
+
+.animation {
+	opacity: 0;
+}
+
+@for $i from 1 through 4 {
+	.animation-special-packages-enter-#{$i} {
+		@if ($i == 1) {
+			animation: animation#{$i} 1s forwards;
+		
+		} @else {
+			$delay: $i - 1s;
+			content: $delay;
+			animation: animation#{$i} 1s $delay forwards;
+		}
+	}
+
+	@keyframes animation#{$i} {
+		0% {
+			transform: scale(.8);		
+			opacity: 0;
+		}
+
+		50% {
+			transform: scale(1.02);		
+			opacity: .8;
+		}
+
+		100% {
+			transform: scale(1);
+			opacity: 1;
+		}
+	}
+}

@@ -1,0 +1,84 @@
+.section-reservation {
+	.section-reservation__card {
+		box-shadow: 0 0 5px 2px rgba(0, 0, 0, .1);
+		background-color: $color-third;
+		margin-bottom: 30px;
+	}
+	
+	//Card formulario
+
+	select {
+		&:focus {
+			outline: 2px solid #FCDD44;
+		}
+	}
+
+	.section-reservation__header-form {
+		color: #685718;
+	}
+	
+	//Card 2 y 3
+	.active {
+		background-color: $color-primary-dark;
+		cursor: pointer;
+		transition: .2s background-color;
+
+		&:hover {
+			background-color: #F9E58B;
+		}
+	}
+
+	.section-reservation__input-group-form {
+		input {
+			@extend %inputs;
+			border-right: none;
+
+			&:focus {
+				outline: 2px solid #FCDD44;
+			}
+		}
+
+		span {
+			@extend %flex-basi;
+			border: 1px solid #CCCCCC;
+			background-color: #EEEEEE;
+			cursor: pointer;
+		}
+
+		&::placeholder {
+			color: #EEEEEE;
+		}
+	}
+
+	.section-reservation__footer-form {
+		background-color: $color-primary-dark;
+		box-shadow: -5px 5px 5px rgba(0, 0, 0, .5);
+
+		.btn {
+			@extend %buttons-sm;
+			background-color: $color-primary;
+			color: #685718;
+			cursor: pointer;
+			transition: background-color .2s;
+
+			&:hover {
+				background-color: #F9E58B;
+			}
+		}
+	}
+
+	.section-reservation__figcaption {
+		color: white;
+    	background-color: #2ec66b;
+    	cursor: pointer;
+
+    	&:hover span {
+			font-weight: bold;
+    	}
+	}
+	
+	//Card 3
+	.section-reservation__figcaption--paris {
+		background: #e97262;
+	}
+}

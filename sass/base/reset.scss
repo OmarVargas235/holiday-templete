@@ -1,0 +1,21 @@
+.navbar {
+	.navbar__title {
+		margin: 0;
+	}
+	
+	.navbar__list {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+	}
+
+	.navbar__link {
+		text-decoration: none;
+		color: black;
+	}
+}
+
+img {
+	max-width: 100%;
+}

@@ -1,0 +1,42 @@
+.contact-us {
+	background-color: $color-third;
+
+	.contact-us__btn {
+		background-color: $color-primary-dark;
+		transition: background-color .2s ease-in;
+		border: none;
+		font-weight: bold;
+		font-style: italic;
+		cursor: pointer;
+
+		&:hover {
+			background-color: $color-primary;
+		}
+	}
+
+	.contact-us__facebook, .contact-us__dribbble, .contact-us__twitter, 
+	.contact-us__instagram, .contact-us__google-plus {
+		color: $color-third;
+		cursor: pointer;
+	}
+
+	.contact-us__facebook {
+		background-color: #4A7DBB;
+	}
+
+	.contact-us__dribbble {
+		background-color: #E4588E;
+	}	
+	
+	.contact-us__twitter {
+		background-color: #77D1EE;
+	}
+
+	.contact-us__instagram {
+		background-color: #527AA1;
+	}
+
+	.contact-us__google-plus {
+		background-color: #CE5754;
+	}
+}

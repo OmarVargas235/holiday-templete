@@ -1,0 +1,62 @@
+@import '../utilities/variables';
+
+.header {
+	color: $color-third;
+	overflow: hidden;
+
+	.header__banner {
+		transition: opacity .5s;
+		position: relative;
+		margin: 0;
+
+		& > * {
+			position: absolute;
+		}
+	}
+
+	.header__sub-text {
+		color: $color-primary;
+	}
+	
+	.header__btn {
+		background: rgba(252, 221, 68, 0.39) none repeat scroll 0% 0%;
+		border: 1px solid #D2B731;
+		font-weight: 600;
+		transition: all 0.3s ease;
+		color: $color-third;
+		cursor: pointer;
+
+		&:hover {
+			background: rgba(252, 221, 68, 1);
+    		color: $color-secundary;
+		}
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	.header__arrows {
+		color: $color-primary;
+		opacity: .6;
+		transition: opacity .5s;
+
+		i {
+			cursor: pointer;
+		}
+
+		&:hover {
+			opacity: 1;
+		}
+
+		.header__arrow-left {
+			left: -10%;
+			transition: left .4s ease-in-out;
+		}
+
+		.header__arrow-right {
+			right: -10%;
+			transition: right .4s ease-in-out;
+		}
+	}
+}
